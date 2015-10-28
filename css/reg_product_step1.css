@@ -1,0 +1,18 @@
+@charset "UTF-8";
+
+.contents-wrap {
+	margin-top: 150px;
+	text-align: center;
+}
+
+.tx-editor-container {
+	width: 100%;
+}
+
+.price_opt {
+	display: none;
+}
+
+.open_button_wrap {
+	text-align: left;
+}

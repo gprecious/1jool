@@ -1,0 +1,103 @@
+@charset "UTF-8";
+
+/*
+Header start
+ */
+.navbar-1jool a.header-right:hover, a.header-right:focus {
+	text-decoration: none;
+	background-color: white;
+	color:#4ab0f4;
+}
+
+.navbar-1jool a.header-right:active, a.header-right:visited {
+	text-decoration: none;
+	background-color: white;
+	
+}
+
+.logo-area {
+	width: 140px;
+	height:70px;
+	padding-top: 10px;
+}
+.logo-image {
+	width:140px;
+}
+.navbar-1jool {
+	background-color: #4ab0f4;
+	
+}
+
+.header-right {
+	display: inline-block;
+	width:110px;
+	height:25px;
+	color: white;
+	border-radius: 5px;
+	line-height: 25px;
+}
+.login {
+	width: 65px;
+}
+.facebook_link {
+	width:120px;
+}
+.register {
+	width:70px;
+}
+.member-info-wrap {
+	display: inline-block;
+	
+}
+.member-info {
+	
+	width:110px;
+	height:25px;
+	color: white;
+	border-radius: 5px;
+	line-height: 25px;
+}
+.header_menu {
+	
+	height:30px;
+}
+
+.margin-t {
+	margin-top: 30px;
+}
+
+/*
+navbar 가운데 정렬
+ */
+.nav-pills {
+  width: 100%;
+  text-align: center;
+}
+.nav-pills > li {
+  float: none;
+  display: inline-block;
+}
+
+/*
+nav-pills color
+ */
+.nav-pills > li > a {
+	background-color: #333333;
+	color: white;
+	opacity: 0.75;
+}
+.nav-pills > li > a:hover{
+	background-color: white;
+	color: #333333;
+}
+
+.bottom-nav {
+	margin-top: 20px;
+}
+
+
+
+
+/*
+Header End
+ */

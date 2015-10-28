@@ -1,0 +1,49 @@
+@charset "UTF-8";
+
+.register-outer {
+	margin-top: 120px;
+}
+.register-inner {
+	width: 100%;
+	margin:0 auto;
+}
+
+.align-left {
+	text-align: left;
+}
+
+.align-right {
+	text-align: right;
+}
+
+.register-title {
+	font-size: 15pt;
+	margin-bottom: 30px;
+}
+
+.registerLabel {
+	line-height: 34px;
+	text-align: right;
+	overflow: scroll;
+}
+.telephone-num {
+	width:30%;
+	display: inline-block;
+}
+.email-accept {
+	text-align: left;
+	line-height: 34px;
+	vertical-align: center;
+}
+
+#findAddressLayer {
+	display: none;
+	position: fixed;
+	overflow: hidden;
+	z-index: 1;
+	-webkit-overflow-scrolling:touch;
+}
+
+.inputEmailAccept {
+
+}

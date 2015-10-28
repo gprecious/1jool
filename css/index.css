@@ -1,0 +1,77 @@
+
+
+/*
+index start
+ */
+
+
+.hot-prescription {
+	width:150px;
+	margin-top: 20px;
+	background-color: #4ab0f4;
+	color:white;
+}
+.contents-title > a:hover {
+	width:150px;
+	margin-top: 20px;
+	background-color: #4ab0f4;
+	color:white;
+}
+.contents {
+	margin-top: 20px;
+}
+
+.contents-outer {
+	/*background-color:#4ab0f4;*/
+	/*border-radius: 10px;*/
+	margin-top: 20px;
+}
+.contents-wrap {
+	background-color:#4ab0f4;
+	border-radius: 10px;
+	height:250px;
+	padding: 10px;
+}
+.contents-img {
+	width:100%;
+	/*height:140px;*/
+	/*margin-top: 30px;*/
+}
+.contents-markup {
+	width: 100%;
+	margin-top: 10px;
+	margin-bottom: 10px;
+
+}
+.contents-name {
+	width: 100%;
+	color: white;
+
+}
+.contents-desc {
+	width: 100%;
+	color: white;
+
+}
+.contents-date {
+	width: 100%;
+	color: white;
+	
+}
+.contents-price {
+	width: 100%;
+	color: white;
+	margin-bottom: 20px;
+
+}
+
+
+
+/*
+index end
+ */
+
+
+
+
+

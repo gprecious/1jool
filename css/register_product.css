@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+.contents-wrap {
+	margin-top: 150px;
+}
+
+.contents-wrap .title {
+	color: #4ab0f4;
+	font-size: 20pt;
+}
+
+.contents-inner .information {
+	font-size: 16pt;
+	
+	margin-bottom: 30px;
+}
+.contents-inner a {
+	width: 100%;
+	height: 100%:;
+	background-color: #4ab0f4;
+	color: white;
+	font-size: 18pt;
+}
+.contents-inner a:visited {
+	width: 100%;
+	height: 100%:;
+	background-color: #4ab0f4;
+	color: white;
+	font-size: 18pt;
+}
+.contents-inner a:hover {
+	width: 100%;
+	height: 100%:;
+	background-color: white;
+	color: #4ab0f4;
+}

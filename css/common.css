@@ -1,0 +1,12 @@
+@charset "UTF-8";
+/**
+* 전역설정
+**/
+body {margin:0;padding:0;text-align:center;font-size:9pt;font-family:'맑은 고딕','Dotum','Arial';color:#333333;}
+body * {font-size:inherit;color:inherit;box-sizing:border-box;}
+img,a,div,form {border:0;padding:0;}
+a {text-decoration:none;}
+a:hover {text-decoration:underline;}
+input, button, textarea {font-family:'맑은 고딕','Dotum','Arial'}
+button {border:none;padding:0 20px;cursor:pointer;}
+textarea{line-height:150%;padding:10px;border:1px solid #DDD;resize:none;}

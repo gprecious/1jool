@@ -1,0 +1,15 @@
+#memberDetail {text-align:left;overflow:hidden;}
+#memberDetail > .memberInfo {border-top:1px solid #CCC;border-bottom:1px solid #CCC;overflow:hidden;}
+#memberDetail > .memberInfo > .row {border-bottom:1px solid #DDD;overflow:hidden;background:#F5F5F5}
+#memberDetail > .memberInfo > .row:last-child {border-bottom:none;}
+#memberDetail > .memberInfo > .row > .left {width:150px;height:40px;line-height:40px;padding-left:10px;font-size:10pt;font-weight:bold;color:#777;float:left;}
+#memberDetail > .memberInfo > .row > .right {min-height:40px;padding:5px;overflow:hidden;background:#FFF;}
+#memberDetail > .memberInfo > .row > .right > .inputText01 {width:200px;height:30px;padding:0 10px;border:1px solid #DDD;}
+#memberDetail > .memberInfo > .row > .right > .inputText02 {width:80px;height:30px;padding:0 10px;border:1px solid #DDD;}
+#memberDetail > .memberInfo > .row > .right > .readonly {background:#F5F5F5;}
+#memberDetail > .memberInfo > .row > .right > .resetBtn {height:30px;margin-left:5px;border:none;padding:0 15px;color:#FFF;background:#999;cursor:pointer;}
+#memberDetail > .memberInfo > .row > .right > label {height:30px;line-height:30px;padding-right:10px;}
+#memberDetail > .memberInfo > .row > .right > label > input {margin:0;vertical-align:middle;}
+#memberDetail > .btnWrap {margin-top:10px;text-align:right;overflow:hidden;}
+#memberDetail > .btnWrap > button {height:45px;padding:0 30px;border:none;font-size:11pt;color:#FFF;background:#777;cursor:pointer;}
+#memberDetail > .btnWrap > button.del {background:#AAA;}
