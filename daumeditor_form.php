@@ -2,7 +2,7 @@
 
 	<div class="form-group row">
 		<div class="col-xs-12">
-			<label for="pd_content">상품 설명</label>
+			<label for="pd_content">상세 설명</label>
 		</div>
 		<div class="col-xs-12" id="editor_frame">
 			
