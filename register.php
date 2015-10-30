@@ -6,14 +6,7 @@ $_CSS[] = $yh['path'].'/css/footer.css';
 $_JS[] = $yh['path'].'/js/register.js';
 $showBottomNav = 0;
 include_once './head.php';
-//print_r($yh);
-//echo "<br />";
-//print_r($member);
-//echo "<br />";
-/*
-if ($is_member) echo "<a href='".$yh['path']."/logout.php'>Logout</a>";
-else echo "<a href='".$yh['path']."/login.php'>Login</a>";
-*/
+
 ?>
 
   <div class="container register-outer">
@@ -29,9 +22,10 @@ else echo "<a href='".$yh['path']."/login.php'>Login</a>";
             </div>
             <div class="col-xs-7 col-md-3">
               <input type="email" name="inputEmail" id="inputEmail" placeholder="이메일 주소" class="form-control inputEmail" required="required">  
+              <input type="hidden" name="emailCheck" id="emailCheck">
             </div>
             <div class="col-xs-2 col-md-1">
-              <button type="button" class="btn btn-primary">중복확인</button>
+              <button type="button" class="btn btn-primary" onclick="emailDupCheck()">중복확인</button>
             </div>        
           </div>
 

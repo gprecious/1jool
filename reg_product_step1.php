@@ -164,11 +164,6 @@ include_once './head.php';
 			<div><button type="button" class="btn btn-primary" onclick='saveContent()'>상품 등록</button></div>
 		</form>
 
-
-			<div class="reply_space">
-				<!-- 댓글 기능 추가 -->
-
-			</div>
 		</div>
 	</div>
 </div>

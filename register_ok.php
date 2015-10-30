@@ -41,6 +41,9 @@ try {
 	$inputTelephone2 = $_POST['inputTelephone2'];
 	$inputTelephone3 = $_POST['inputTelephone3'];
 	$inputEmailAccept = $_POST['inputEmailAccept'];
+
+	$emailCheck = $_POST['emailCheck'];
+
 } catch (Exception $e) {
 	echo $e->getMessage() . ' code : ' .$e->getCode();
 }
@@ -78,6 +81,10 @@ if (!is_numeric($inputTelephone3)) {
 }
 if (!is_numeric($inputEmailAccept)) {
 	echo "숫자입력 필드에 문자 입력됨8";
+	exit;
+}
+if ($emailCheck != "0") {
+	echo "중복된 이메일 이볅됨";
 	exit;
 }
 //end validate an integer

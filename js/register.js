@@ -214,7 +214,29 @@ function fillForm() {
 	inputAddress2.val("테스트 상세주소");
 }
 
+function emailDupCheck() {
+	var email = $('.inputEmail').val();
 
+	$.ajax({
+		type: 'POST',
+		url: "/email_check.php",
+		data: {"email" : email},
+		cache: false,
+		success: function(data) {
+			$("#emailCheck").val(data);
+			//alert(data);
+			if (data == "1") {
+				alert("이미 존재하는 이메일 주소입니다. 다른 주소를 입력해주세요.");
+			} else {
+				alert("사용할 수 있는 이메일 주소입니다.");
+			}
+		},
+		error:function(xhr, status, error) {
+			console.log(status);
+			console.log(xhr.responseText);
+		}
+	});
+}
 
 
 
