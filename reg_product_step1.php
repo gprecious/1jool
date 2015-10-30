@@ -14,9 +14,22 @@ $showBottomNav = 0;
 include_once './head.php';
 
 ?>
+<script>
+	var is_member = <?= intval($is_member)?>;
+	var yh_path = "<?=$yh['path']?>";
+
+	if(is_member == 0) {
+		alert("로그인이 필요한 메뉴입니다. 로그인해주세요.");
+		location.href = yh_path;
+	}
+</script>
 <!--
 다음오픈에디터로 상품 설명 구현
 -->
+<?php
+	if ($is_member != 0) {
+
+?>
 <div class="contents-wrap container">
 	<div class="contents-outer">
 		<div class="contents-inner">
@@ -170,5 +183,6 @@ include_once './head.php';
 
 
 <?php
+	}
 include_once './tail.php';
 ?>
