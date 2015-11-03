@@ -7,6 +7,7 @@ $_CSS[] = $yh['path'].'/daumeditor/css/editor.css';
 
 
 $_JS[] = $yh['path'].'/daumeditor/js/editor_loader.js';
+$_JS[] = $yh['path'].'/js/reg_product.js';
 //$_JS[] = $yh['path'].'/js/index.js';
 $showBottomNav = 0;
 include_once './head.php';
@@ -85,91 +86,95 @@ include_once './head.php';
 			<div class="form-group row price_opt">
 
 				<div class="col-xs-12">
-					<label for="pd_opt">상품 옵션 1</label>
+					<label for="pd_opt">체험 날짜 1</label>
 				</div>
 				<div class="col-xs-6 col-md-1 col-md-offset-2">
-					<label for="pd_opt">설명</label>
+					<label for="opt_date">날짜</label>
 				</div>
 				<div class="col-xs-6 col-md-3">
-					<input type="text" name="pd_opt[]" class="form-control pd_opt">
+					<input type="text" name="opt_date[]" class="form-control opt_date">
 				</div>
 				<div class="col-xs-6 col-md-1">
-					<label for="pd_opt_price">추가금액</label>
+					<label for="opt_time">시간</label>
 				</div>
 				<div class="col-xs-6 col-md-3">
-					<input type="text" name="pd_opt_price[]" class="form-control pd_opt_price" placeholder="원">
+					<input type="text" name="opt_time[]" class="form-control opt_time" placeholder="원">
 				</div>
 			</div>
 
 			<div class="form-group row price_opt">
+
 				<div class="col-xs-12">
-					<label for="pd_opt">상품 옵션 2</label>
+					<label for="pd_opt">체험 날짜 2</label>
 				</div>
 				<div class="col-xs-6 col-md-1 col-md-offset-2">
-					<label for="pd_opt">설명</label>
+					<label for="opt_date">날짜</label>
 				</div>
 				<div class="col-xs-6 col-md-3">
-					<input type="text" name="pd_opt[]" class="form-control pd_opt">
+					<input type="text" name="opt_date[]" class="form-control opt_date">
 				</div>
 				<div class="col-xs-6 col-md-1">
-					<label for="pd_opt_price">추가금액</label>
+					<label for="opt_time">시간</label>
 				</div>
 				<div class="col-xs-6 col-md-3">
-					<input type="text" name="pd_opt_price[]" class="form-control pd_opt_price" placeholder="원">
+					<input type="text" name="opt_time[]" class="form-control opt_time" placeholder="원">
 				</div>
 			</div>
 
 			<div class="form-group row price_opt">
+
 				<div class="col-xs-12">
-					<label for="pd_opt">상품 옵션 3</label>
+					<label for="pd_opt">체험 날짜 3</label>
 				</div>
 				<div class="col-xs-6 col-md-1 col-md-offset-2">
-					<label for="pd_opt">설명</label>
+					<label for="opt_date">날짜</label>
 				</div>
 				<div class="col-xs-6 col-md-3">
-					<input type="text" name="pd_opt[]" class="form-control pd_opt">
+					<input type="text" name="opt_date[]" class="form-control opt_date">
 				</div>
 				<div class="col-xs-6 col-md-1">
-					<label for="pd_opt_price">추가금액</label>
+					<label for="opt_time">시간</label>
 				</div>
 				<div class="col-xs-6 col-md-3">
-					<input type="text" name="pd_opt_price[]" class="form-control pd_opt_price" placeholder="원">
+					<input type="text" name="opt_time[]" class="form-control opt_time" placeholder="원">
 				</div>
 			</div>
 
 			<div class="form-group row price_opt">
+
 				<div class="col-xs-12">
-					<label for="pd_opt">상품 옵션 4</label>
+					<label for="pd_opt">체험 날짜 4</label>
 				</div>
 				<div class="col-xs-6 col-md-1 col-md-offset-2">
-					<label for="pd_opt">설명</label>
+					<label for="opt_date">날짜</label>
 				</div>
 				<div class="col-xs-6 col-md-3">
-					<input type="text" name="pd_opt[]" class="form-control pd_opt">
+					<input type="text" name="opt_date[]" class="form-control opt_date">
 				</div>
 				<div class="col-xs-6 col-md-1">
-					<label for="pd_opt_price">추가금액</label>
+					<label for="opt_time">시간</label>
 				</div>
 				<div class="col-xs-6 col-md-3">
-					<input type="text" name="pd_opt_price[]" class="form-control pd_opt_price" placeholder="원">
+					<input type="text" name="opt_time[]" class="form-control opt_time" placeholder="원">
 				</div>
 			</div>
 
 			<div class="form-group row price_opt">
+
 				<div class="col-xs-12">
-					<label for="pd_opt">상품 옵션 5</label>
+					<label for="pd_opt">체험 날짜 5</label>
 				</div>
 				<div class="col-xs-6 col-md-1 col-md-offset-2">
-					<label for="pd_opt">설명</label>
+					<label for="opt_date">날짜</label>
 				</div>
 				<div class="col-xs-6 col-md-3">
-					<input type="text" name="pd_opt[]" class="form-control pd_opt">
+					<input type="text" name="opt_date[]" class="form-control opt_date">
 				</div>
 				<div class="col-xs-6 col-md-1">
-					<label for="pd_opt_price">추가금액</label>
+					<label for="opt_time">시간</label>
 				</div>
 				<div class="col-xs-6 col-md-3">
-					<input type="text" name="pd_opt_price[]" class="form-control pd_opt_price" placeholder="원">
+					<input type="text" name="opt_time[]" class="form-control opt_time" placeholder="원">
 				</div>
 			</div>
 

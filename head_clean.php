@@ -12,10 +12,14 @@
 		<title><?=$yh['title']?></title>
 
 		<link rel="stylesheet" href="<?=$yh['path']?>/bootstrap-3.3.5-dist/css/bootstrap.min.css">
+		<link rel="stylesheet" href="<?=$yh['path']?>/jquery-ui/jquery-ui.css">
+		<link rel="stylesheet" href="<?=$yh['path']?>/timepicker-master/jquery.ui.timepicker.css">
 		<link rel='stylesheet' href='<?=$yh['path']?>/css/common.css?v=<?=$yh['ver']?>' />
 
 		<script src='<?=$yh['path']?>/lib/jquery/jquery-2.1.3.min.js'></script>
 		<script src="<?=$yh['path']?>/bootstrap-3.3.5-dist/js/bootstrap.min.js"></script>
+		<script src="<?=$yh['path']?>/jquery-ui/jquery-ui.min.js"></script>
+		<script src="<?=$yh['path']?>/timepicker-master/jquery.ui.timepicker.js"></script>
 		<script src='<?=$yh['path']?>/js/common.js?v=<?=$yh['ver']?>'></script>
 		<script src="<?=$yh['path']?>/js/login.js"></script>
 		<script>

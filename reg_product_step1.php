@@ -7,7 +7,7 @@ $_CSS[] = $yh['path'].'/daumeditor/css/editor.css';
 
 
 $_JS[] = $yh['path'].'/daumeditor/js/editor_loader.js';
-$_JS[] = $yh['path'].'/js/reg_product_step1.js';
+$_JS[] = $yh['path'].'/js/reg_product.js';
 //$_JS[] = $yh['path'].'/daumeditor/js/tj_editor_send.js';
 
 $showBottomNav = 0;
