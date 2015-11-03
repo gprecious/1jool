@@ -99,7 +99,7 @@ include_once './head.php';
 					<label for="opt_time">시간</label>
 				</div>
 				<div class="col-xs-6 col-md-3">
-					<input type="text" name="opt_time[]" class="form-control opt_time" placeholder="원">
+					<input type="text" name="opt_time[]" class="form-control opt_time">
 				</div>
 			</div>
 
@@ -118,7 +118,7 @@ include_once './head.php';
 					<label for="opt_time">시간</label>
 				</div>
 				<div class="col-xs-6 col-md-3">
-					<input type="text" name="opt_time[]" class="form-control opt_time" placeholder="원">
+					<input type="text" name="opt_time[]" class="form-control opt_time">
 				</div>
 			</div>
 
@@ -137,7 +137,7 @@ include_once './head.php';
 					<label for="opt_time">시간</label>
 				</div>
 				<div class="col-xs-6 col-md-3">
-					<input type="text" name="opt_time[]" class="form-control opt_time" placeholder="원">
+					<input type="text" name="opt_time[]" class="form-control opt_time">
 				</div>
 			</div>
 
@@ -156,7 +156,7 @@ include_once './head.php';
 					<label for="opt_time">시간</label>
 				</div>
 				<div class="col-xs-6 col-md-3">
-					<input type="text" name="opt_time[]" class="form-control opt_time" placeholder="원">
+					<input type="text" name="opt_time[]" class="form-control opt_time">
 				</div>
 			</div>
 
@@ -175,7 +175,7 @@ include_once './head.php';
 					<label for="opt_time">시간</label>
 				</div>
 				<div class="col-xs-6 col-md-3">
-					<input type="text" name="opt_time[]" class="form-control opt_time" placeholder="원">
+					<input type="text" name="opt_time[]" class="form-control opt_time">
 				</div>
 			</div>
 

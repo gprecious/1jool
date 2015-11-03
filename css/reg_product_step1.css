@@ -16,3 +16,8 @@
 .open_button_wrap {
 	text-align: left;
 }
+
+.ui-timepicker { 
+	font-size: 12px;
+	width: 250px; 
+}
